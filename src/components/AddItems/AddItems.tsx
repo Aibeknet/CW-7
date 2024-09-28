@@ -26,7 +26,9 @@ const AddItems: React.FC<AddItemsProps> = ({ menu, addItem }) => {
                                     alt={item.name}
                                     className="me-2"
                                 />
+
                                 {item.name} - {item.price} KGS
+
                             </button>
                         </div>
                     ))}

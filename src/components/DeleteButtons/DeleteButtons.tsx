@@ -30,6 +30,7 @@ const DeleteButtons: React.FC<DeleteButtonsProps> = ({ itemId, deleteItem, delet
                 </svg>
                 Delete One
             </button>
+
             <button
                 type="button"
                 className="btn btn-danger btn-sm"
